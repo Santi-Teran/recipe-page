@@ -7,10 +7,14 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        "Eggshell": 'hsl(30, 54%, 90%)',
+        "Nutmeg": 'hsl(14, 45%, 36%)',
+        "Raspberry": 'hsl(332, 51%, 32%)',
+        "Rose": 'hsl(330, 100%, 98%)',
+        "Grey": 'hsl(30, 18%, 87%)',
+        "Brown": 'hsl(30, 10%, 34%)',
+        "Charcoal": 'hsl(24, 5%, 18%)',
       },
     },
   },
